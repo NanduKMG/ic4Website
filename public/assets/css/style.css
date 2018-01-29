@@ -428,6 +428,7 @@ textarea::-ms-input-placeholder
 }
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   color:#b4b4b4;
+  background-color: #062844;
  
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
