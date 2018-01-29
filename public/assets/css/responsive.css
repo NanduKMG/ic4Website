@@ -1,0 +1,282 @@
+/* Portrait tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    font-size: 15px;
+  }
+  .team {
+    height: 20em;
+  }
+  #logoText {
+    font-size: 4vw;
+    letter-spacing:5vw;
+  }
+
+
+}
+
+/* Portrait tablets and small desktops */
+/*bug fix for team page*/
+@media (max-width: 1120px) {
+  .teamimg{
+    height: 210px;
+    width: 210px;
+  }
+}
+
+
+@media (max-width: 991px) {
+  html {
+    font-size: 90%;
+  }
+  .home-details {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .home-details .logo {
+    margin-bottom: 0px
+  }
+  #logoText {
+    font-size: 5vw;
+    letter-spacing: 7vw;
+  }
+  .portfolio-item {
+    width: 45%;
+  }
+  .heading p {
+    line-height: 30px;
+  }
+  .about-content {
+    text-align: center;
+  }
+  .team {
+    height: 14em;
+  }
+
+  .teamimg {
+    height: 200px;
+    width: 200px;
+  }
+  #footerLogo{
+  width:305px;
+  height:auto;
+  padding-left:45px;
+  
+  }
+  .footNew {
+    background-size: 320px;
+    background-repeat: no-repeat;
+    background-position: 76vw -6vh;
+}
+	 #logoXCET {
+    height: 53px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+  }
+  #Regspn{
+    padding-right: 15px;
+  }
+
+  .sponsors a img{
+    margin-bottom:50px; 
+
+  }
+  /*#teammem{margin-left: 30px;}*/
+}
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+  html {
+    font-size: 80%;
+  }
+  .menu {
+    padding-bottom: 200px;
+  }
+  .navbar-default .navbar-nav>li>a {
+    padding-top: calc((100vh - 200px)/12);
+    /*previous value was 45px changed for making menu fullscreen*/
+    padding-bottom: calc((100vh - 200px)/12);
+  }
+  .home-details .home-title h1 {
+    font-size: 35px;
+  }
+  .about-content {
+    text-align: center;
+  }
+  .portfolio-item {
+    width: 25%;
+  }
+  .contact-details .contact-category .mail h2 {
+    font-size: 40px;
+  }
+  .contact-details .contact-category .phone h5 {
+    font-size: 35px;
+  }
+  .heading p {
+    line-height: 23px;
+    margin-top: 30px;
+  }
+  .heading h3 {
+    font-size: 35px;
+  }
+  #logoText {
+    font-size: 5vw;
+    letter-spacing: 7vw;
+  }
+ 
+  .team {
+    height: 14em;
+  }
+  /*#teammem{margin-left: 20px;}*/
+  .teamimg {
+    height: 200px;
+    width: 200px;
+  }
+  /*New footer */
+  #footerLogo{
+	  width: 175px;
+    height: auto;
+    padding-left: 18px;
+  }
+	
+	
+	.footRow{
+		padding-left:25px;
+		padding-top:15px;
+	}
+	.footRow h2{
+	 font-size:18px;
+	 
+	 
+	}
+	
+	.footRow h5{
+	 font-size:9px;
+	 margin-bottom:0px;
+	 
+	}
+	.footConnect i{
+	  
+	  font-size: 11px;
+    width: 20px;
+    height: 0px;
+    padding-top: 7px;
+	}
+  .footConnect {
+    padding-left: 0px;
+  }
+
+  .footConnect h2{
+    margin-bottom: 0px;
+  }
+ .footConnect button{
+    font-size: 7px;
+    width: 59px;
+    margin-bottom: 10px;
+  }
+
+
+	.TedxTeam{
+	font-size:14px;
+    padding-right: 3px;
+   
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;	
+		margin-left: 0px;
+	}
+	
+	.footNew{
+	background-size: 315px;
+	background-position:55vw;
+	}
+
+  .img__description {
+    font-size: 11px;
+  }
+
+  .spText{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+
+}
+
+/* Landscape phones and smaller */
+
+@media (max-width: 480px) {
+  html {
+    font-size: 65%;
+  }
+  #logoText {
+    font-size: 5vw;
+    letter-spacing: 8vw;
+  }
+  .home-details .home-title h1 {
+    font-size: 20px;
+  }
+  .scroll-down h5 {
+    font-size: 13px;
+  }
+  .portfolio-wrapper {
+    margin-left: 0px;
+  }
+  .portfolio-item {
+    margin-bottom: 0px;
+    width: 45%;
+    margin-left: 0px;
+  }
+  .contact-details .contact-category .mail h2 {
+    font-size: 25px;
+  }
+  .contact-details .contact-category .phone h5 {
+    font-size: 22px;
+  }
+  .copyright p {
+    font-size: 12px;
+  }
+  .heading h3 {
+    font-size: 25px;
+  }
+  .team {
+    height: 11em;
+    margin-bottom: 150px;
+  }
+	.img__description {
+    font-size: 11px;
+    background: linear-gradient(transparent,transparent,black);
+    color: #ffffff;
+    visibility: visible;
+    opacity: 1;
+    padding-top: 83%;
+    }
+  .modal-header img{
+    width: 175px;
+  }
+
+  .sponsors a img{
+    margin-bottom:30px; 
+
+  }
+  /*#teammem{margin-left: 15px;}*/
+}
+@media (max-width: 320px) {
+  #logoText {
+    font-size: 7vw;
+    letter-spacing: 8vw;
+  }
+  html {
+    font-size: 60.5%;
+  }
+  .team {
+    margin-bottom: 150px;
+    height: 8em;
+  }
+	.img__description {
+    font-size: 10px;
+  }
+  /*#teammem{margin-left:15px;}*/
+}
