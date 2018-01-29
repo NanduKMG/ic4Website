@@ -653,7 +653,7 @@ input {
   border-collapse: collapse;
   height: 320px;
   margin: auto;
-  max-width: 600px;
+  max-width: 900px;
   padding: 5px;
   width: 100%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -664,7 +664,7 @@ th {
   ;
   background: #1b1e24;
   border-bottom: 4px solid #9ea7af;
-  border-right: 1px solid #343a45;
+  border-right: 1px solid #ffffff;
   font-size: 23px;
   font-weight: 100;
   padding: 24px;
@@ -694,7 +694,7 @@ tr:last-child {
   border-bottom: none;
 }
 tr:nth-child(odd) td {
-  background: #EBEBEB;
+  background:#E8EAF6;
 }
 tr:last-child td:first-child {
   border-bottom-left-radius: 3px;
@@ -716,7 +716,7 @@ td:last-child {
   border-right: 0px;
 }
 th.text-left {
-  text-align: left;
+  text-align: center;
 }
 th.text-center {
   text-align: center;
@@ -740,6 +740,13 @@ td.text-right {
 #contact {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+th{
+  background: #062844;
+}
+/*paper submission rules*/
+div>p{
+  margin-left: 30px;
 }
 
 /*navicon*/
@@ -930,11 +937,11 @@ td.text-right {
 }
 
 /* Works in Safari */
-::selection {
+/*::selection {
        background-color: #f56363;
        color: #000;
 }
-.speaker-wrap{
+*/.speaker-wrap{
   position: relative;
  
 }
