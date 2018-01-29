@@ -743,7 +743,11 @@ td.text-right {
   padding-bottom: 50px;
 }
 th{
-  background: #1E88E5;
+  background: #062844;
+}
+/*paper submission rules*/
+div>p{
+  margin-left: 30px;
 }
 
 /*navicon*/
