@@ -207,7 +207,7 @@ section .subtitle-half h5 {
   font-size: 17px;
 }
 .overlay {
-  background-color: rgba(0, 0, 0, .55);
+  background-color:white; /*rgba(0, 0, 0, .55);*/
   width: 100%;
   min-height: 700px;
 }
@@ -599,11 +599,12 @@ textarea::-ms-input-placeholder
   position: absolute;
   margin-top: 185px;
   opacity: 0.8;
+  color:#062844;
 }
 #logoXCET {
   position: absolute;
-  left: 3px;
-  top: 3px;
+  left: 20px;
+  top: 5px;
   overflow: hidden;
   height: 75px;
   padding-top: 15px;
