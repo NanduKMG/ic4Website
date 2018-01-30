@@ -741,6 +741,14 @@ td.text-right {
   background: white;
   border: 0px;
   color: #062844;
+  font-size: 30px;
+  width: 225px;
+}
+.button1{
+  border-radius: 12px;
+}
+q>i{
+  margin: 2px;
 }
 .cent{
   text-align: center;
