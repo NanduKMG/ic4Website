@@ -734,6 +734,17 @@ td.text-center {
 td.text-right {
   text-align: right;
 }
+#q{
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background: white;
+  border: 0px;
+  color: #062844;
+}
+.cent{
+  text-align: center;
+}
 .modalalign {
   text-align: justify;
   text-justify: inter-word;
