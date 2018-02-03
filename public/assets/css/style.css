@@ -951,10 +951,7 @@ div>p{
   background-position:80vw;
   }
 
-    ::-moz-selection {
-       background-color: #f56363;
-       color: #000;
-}
+    
 
 /* Works in Safari */
 /*::selection {
