@@ -1008,6 +1008,42 @@ div>p{
 #Regspn{
   padding-right: 5vw;
 }
+
+/*COMMITEE CSS*/
+.com-member:nth-child(even) {
+  background-color:#E8EAF6; 
+  border: 2px solid #062844; 
+  padding: 5px;
+  margin: 5px; 
+  border-radius: 11px; 
+  color: #062844;
+}
+.com-member:nth-child(odd) {
+  background-color: white; 
+  border: 2px solid #062844;
+  padding: 5px;
+  margin: 5px; 
+  border-radius: 11px; 
+  color: #062844;
+}
+.com-details{
+  margin: 6px
+}
+.com-member h6{
+  margin-top: .1%;
+  border: 1px solid #062844; 
+  border-radius: 5px;
+  padding: 7px;
+  color: #062844;
+  font-size: 1rem;
+  margin-bottom: .1%;
+}
+.com-member h5{
+  margin: 0rem;
+  padding: 0rem;
+  font-size: 1.15rem;
+}
+
 @media (max-width: 991px) {
     .navbar-header {
         float: none;
