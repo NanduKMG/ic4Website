@@ -211,6 +211,7 @@
   html {
     font-size: 65%;
   }
+
   #logoText {
     font-size: 5vw;
     letter-spacing: 8vw;
@@ -260,6 +261,9 @@
   .sponsors a img{
     margin-bottom:30px; 
 
+  }
+  td{
+    font-size:12px;
   }
   /*#teammem{margin-left: 15px;}*/
 }
