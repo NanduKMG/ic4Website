@@ -265,6 +265,10 @@
   td{
     font-size:12px;
   }
+  th{
+    font-size: 15px;
+    padding: 10px;
+  }
   /*#teammem{margin-left: 15px;}*/
 }
 @media (max-width: 320px) {
