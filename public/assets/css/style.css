@@ -978,7 +978,10 @@ div>p{
     font-size:18px;
 }
 
-
+#cetLogo{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 /* ================ The Timeline ================ */
 
 .timeline {
@@ -1148,6 +1151,15 @@ div>p{
   margin: 1em 0 0 0.75em;
 }
 
+
+#logoLand{
+    max-height: 400px;
+  }
+
+
+#cloudImg{
+  margin-top:175px;margin-left:60px;max-height:400px;
+}
 /* ================ Timeline Media Queries ================ */
 
 @media screen and (max-width: 660px) {

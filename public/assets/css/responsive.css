@@ -39,6 +39,7 @@
   #logoText {
     font-size: 5vw;
     letter-spacing: 7vw;
+
   }
   .portfolio-item {
     width: 45%;
@@ -212,9 +213,18 @@
     font-size: 65%;
   }
 
+div>p {
+    margin-left:unset;
+}
+  
+  #cloudImg{
+    margin-top:80px;margin-left:unset;max-height:400px;
+  }
+
   #logoText {
-    font-size: 5vw;
+    font-size: 6vw;
     letter-spacing: 8vw;
+    margin-top:25px;
   }
   .home-details .home-title h1 {
     font-size: 20px;
@@ -268,6 +278,9 @@
   th{
     font-size: 15px;
     padding: 10px;
+  }
+  #logoLand{
+    max-height: 270px;
   }
   /*#teammem{margin-left: 15px;}*/
 }
