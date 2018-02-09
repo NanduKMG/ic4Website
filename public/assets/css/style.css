@@ -1007,20 +1007,20 @@ div>p{
 }
 
 /*COMMITEE CSS*/
-.com-member:nth-child(even) {
+.com-member:nth-child(odd) {
   background-color:#E8EAF6; 
-  border: 2px solid #062844; 
+ 
   padding: 5px;
   margin: 5px; 
-  border-radius: 11px; 
+ 
   color: #062844;
 }
-.com-member:nth-child(odd) {
+.com-member:nth-child(even) {
   background-color: white; 
-  border: 2px solid #062844;
+  
   padding: 5px;
   margin: 5px; 
-  border-radius: 11px; 
+  
   color: #062844;
 }
 .com-details{
@@ -1028,7 +1028,7 @@ div>p{
 }
 .com-member h6{
   margin-top: .1%;
-  border: 1px solid #062844; 
+   
   border-radius: 5px;
   padding: 7px;
   color: #062844;
